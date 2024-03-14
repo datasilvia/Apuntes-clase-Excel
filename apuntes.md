@@ -43,7 +43,7 @@ Excel ofrece datos estructurados de manera tabular.
 
 Artículo sobre la historia de Excel: 
 
-aula10formacion.com/blog/la-historia-de-excel/
+https://aula10formacion.com/blog/la-historia-de-excel/
 
 
 Para trabajar con Excel en Mac hay una aplicación descargable.
@@ -90,6 +90,7 @@ Se hace en el apartado "Revisar", y es muy útil si no quieres que nadie pueda m
 
 
 Es recomendable tener activado el autoguardado.
+
 Y con el historial de versiones podemos ver quién ha hecho cada cambio (si lo usamos de modo colaborativo).
 Para compartir el archivo hay una pestaña arriba a la derecha, y desde ahí también podemos definir qué permisos le damos a esa persona.
 
@@ -114,3 +115,149 @@ Rellenar celdas con valores o fórmulas.
 -controlador
 
 -atajos
+
+
+Autocompletar.
+
+Se usa para rellenar las celdas en base a un patrón.
+
+
+Referencias en Excel
+
+Existen dos tipos de referencias, las relativas y las absolutas.
+
+
+Para leer más sobre referencias en Excel:
+
+https://exceltotal.com/referencias-absolutas-y-relativas/
+
+
+Listas desplegables, validación de datos
+
+Se usa para restringir los valores que se pueden introducir entre un rango de datos, o ajustandose a una lista de valores. (está en la pestaña Datos)
+
+
+Dividir texto en columnas
+
+
+Formato condicional
+
+Sirve para aplicar una regla lógica y a partir de los registros que cumplen ese criterio, aplicar un formato concreto.
+
+
+Clase dos
+
+Comparativa entre la versión desktop y la versión online de Excel.
+
+Por lo general, la versión online puede ser más cómoda para trabajos ligeros, y te da la libertad de que puedas usarla en cualquier pc.
+
+La versión desktop es mejor para trabajos más pesados, y cuanta con algunas funicionalidades exclusivas. También hay que tener en cuenta las prestaciones de tu propia computadora cuando se trata de velocidad de procesamiento de datos, etc.
+
+
+FORMULAS Y FUNCIONES
+
+
+¿Qué son las fórmulas de Excel?
+
+ Son instrucciones o expresiones matemáticas que se utilizan para realizar cáculos, manipular datos y realizar diversas operaciones en una hoja de cálculo.
+
+ Permiten realizar una amplia gama de tareas, desde operaciones matemáticas simples hasta cálculos complejos y análisis de datos.
+
+ Las fórmulas en Excel siempre comienzan con el signo igual (=) y pueden incluir referencias a celdas, valores constantes, funciones predefinidas de Excel y operadores matemáticos.
+
+ Algunos ejemplos comunes de fórmulas en Excel incluyen:
+
+ -Resta de valore: =B2-B3
+
+ -Multiplicación de valores: =C4*D4
+
+ -División de valores: =E5/F5
+
+Excel incluye funciones predefinidas que cubren diversas áreas, como matemáticas, estadísticas, finanzas, fecha y hora, texto, búsqueda y referencias, entre otras.
+
+
+¿Qué son las funciones en Excel?
+
+Son fórmulas predefinidas que realizan cálculos específicos o ejecutan operaciones sobre los datos en una hoja de cálculo.
+
+
+Las funciones:
+
+-Tienen nombre
+
+-Pueden recibir parámetros
+
+-Devuelven un resultado
+
+
+=nombre_de_la_función(argumento1,argumento2,...)
+
+Función dinámica: La que recibe parámetros.
+
+Función estática: La que no recibe parámetros.
+
+
+Para ver la lista de todas las funciones de Excel existentes: http://exceltotal.com/funciones/
+
+
+Diferencia entre fórmula y función
+
+FÓRMULA: 
+
+-Expresión matemática o lógica que comienza con el signo igual (=) y puede incluir operadores matemáticos, referencias a otras celdas, valores constantes y funciones.
+
+-Se crean escribiendolas manualmente.
+
+-Pueden realizar cálculos simples o complejos.
+
+
+FUNCIÓN:
+
+-Es una función predefinida que realiza una tarea específica.
+
+-Tienen nombre y una sintaxis específica.
+
+-Se utilizan para realizar cáculos más complejos.
+
+-Se utilizan escribiendo el nombre de la función seguido de paréntesis que contienen los argumentos de la función.
+
+-Se utiliza para simplificar y automatizar cálculos comunes, y permiten realizar una amplia gama de tareas sin la necesidad de escribir expresiones matemáticas complejas manualmente.
+
+
+
+Los operadores de Excel
+
+
+Concatenar con el operador ampersand (&)
+
+-Concatenar referencia a celdas
+
+-Concatenar valores y texto
+
+-Concatenar fórmulas y texto
+
+
+Listas personalizadas
+Cuando tenemos por ejemplo una fila con varias celdas, y en la primera pone "lunes", y yo arrastro hacia la derecha, me lo rellena con los demás días de la semana. 
+O si pone en la primera celda "Enero" y lo arrastro hacia la derecha me lo rellena con los demás meses del año.
+Esto es por las listas personalizadas que Excel tiene precargadas.
+
+¿Cómo crear tu propia lista personalizada?
+
+seccion archivo, opciones, solapa "avanzadas", general, modificar listas pesonalizadas.
+En mac esta opción está en "preferencias de Excel".
+
+
+Administración de celdas y rangos
+
+Podemos seleccionar un rango de celdas y asignarles un nombre, y luego usar éste pata referenciar dichas celdas.
+
+
+
+Funciones lógicas
+
+-SI
+
+-Y y O
+
+-SI anidada
