@@ -1,9 +1,9 @@
-¿Qué hace un analista de datos?
+# ¿Qué hace un analista de datos?
 
 Los analistas de datos buscan determinar cómo se pueden usar los datos para responder preguntas y resolver problemas de negocio.
 
 
-Algunas tareas involucradas:
+## Algunas tareas involucradas:
 
 -Analizar e interpretar resultados utilizando herramientas y técnicas estadísticas.
 
@@ -19,9 +19,11 @@ Algunas tareas involucradas:
 
 
 
-Herramientas de visualización de datos
+# Herramientas de visualización de datos
 
 Excel es una herramienta "entry level", es decir, es una de las primeras herramientas que has de aprender para dedicarte a los datos.
+
+Otras herramientas son:
 
 Power Bi
 
@@ -35,10 +37,11 @@ Cognos
 
 
 
-¿Qué es Excel?
+# ¿Qué es Excel?
 
-Es una hoja de cálculo que nos permite manipular datos numéricos y de texto en tablas formadas por la unión de filas y columnas.
+Es una hoja de cálculo desarrollada por Microsoft que nos permite manipular datos numéricos y de texto en tablas formadas por la unión de filas y columnas.
 Excel ofrece datos estructurados de manera tabular.
+Lenguaje de programación macro llamado Visual Basic para aplicaciones.
 
 
 Artículo sobre la historia de Excel: 
@@ -56,6 +59,13 @@ https://www.microsoft365.com/template/excel
 
 
 
+## ¿Para qué sirve?
+
+Para hacer cálculos avanzados, crear gráficos, hacer informes, y también para análisis más avanzados.
+Hay empresas que también lo utilizan para la contabilidad.
+
+
+
 Creamos un libro en blanco.
 
 Hay un espacio que será muy importante, el espacio de fórmula. Se puede ampliar para mayor comodidad.
@@ -66,7 +76,7 @@ Las filas de las tablas vienen definidas por números.
 
 La intersección de una columna y una fila es una celda.
 
-Referenciar celdas es nombrarla con la columna + fila, por ejemplo B2, H16, etc.
+Referenciar una celda es nombrarla con la columna + fila, por ejemplo B2, H16, etc.
 
 A través de la referenciación de celdas logramos la automatización.
 
@@ -76,7 +86,7 @@ Excel tiene muchas opciones. Una importante es cambiar tipos de datos, por ejemp
 
 
 
-¿Cómo proteger un archivo de Excel?
+## ¿Cómo proteger un archivo de Excel?
 
 Existen tres niveles de protección:
 
@@ -101,12 +111,12 @@ Hay que tener en cuenta cuando guardemos el trabajo hacerlo con la extensión  .
 
 
 
-Error de desbordamiento.
+# Error de desbordamiento.
 
 Ocurre cuando tienes alguna casilla ocupada donde quieres pegar algo.
 
 
-Rellenar celdas con valores o fórmulas.
+# Rellenar celdas con valores o fórmulas.
 
 3 formas:
 
@@ -117,12 +127,12 @@ Rellenar celdas con valores o fórmulas.
 -atajos
 
 
-Autocompletar.
+## Autocompletar.
 
 Se usa para rellenar las celdas en base a un patrón.
 
 
-Referencias en Excel
+# Referencias en Excel
 
 Existen dos tipos de referencias, las relativas y las absolutas.
 
@@ -132,32 +142,32 @@ Para leer más sobre referencias en Excel:
 https://exceltotal.com/referencias-absolutas-y-relativas/
 
 
-Listas desplegables, validación de datos
+# Listas desplegables, validación de datos
 
 Se usa para restringir los valores que se pueden introducir entre un rango de datos, o ajustandose a una lista de valores. (está en la pestaña Datos)
 
 
-Dividir texto en columnas
+# Dividir texto en columnas
 
 
-Formato condicional
+# Formato condicional
 
 Sirve para aplicar una regla lógica y a partir de los registros que cumplen ese criterio, aplicar un formato concreto.
 
 
-Clase dos
+______________________________________________________________________________
 
 Comparativa entre la versión desktop y la versión online de Excel.
 
 Por lo general, la versión online puede ser más cómoda para trabajos ligeros, y te da la libertad de que puedas usarla en cualquier pc.
 
-La versión desktop es mejor para trabajos más pesados, y cuanta con algunas funicionalidades exclusivas. También hay que tener en cuenta las prestaciones de tu propia computadora cuando se trata de velocidad de procesamiento de datos, etc.
+La versión desktop es mejor para trabajos más pesados, y cuanta con algunas funcionalidades exclusivas. También hay que tener en cuenta las prestaciones de tu propia computadora cuando se trata de velocidad de procesamiento de datos, etc.
 
 
-FORMULAS Y FUNCIONES
+# FORMULAS Y FUNCIONES
 
 
-¿Qué son las fórmulas de Excel?
+## ¿Qué son las fórmulas de Excel?
 
  Son instrucciones o expresiones matemáticas que se utilizan para realizar cáculos, manipular datos y realizar diversas operaciones en una hoja de cálculo.
 
@@ -167,7 +177,7 @@ FORMULAS Y FUNCIONES
 
  Algunos ejemplos comunes de fórmulas en Excel incluyen:
 
- -Resta de valore: =B2-B3
+ -Resta de valores: =B2-B3
 
  -Multiplicación de valores: =C4*D4
 
@@ -176,7 +186,7 @@ FORMULAS Y FUNCIONES
 Excel incluye funciones predefinidas que cubren diversas áreas, como matemáticas, estadísticas, finanzas, fecha y hora, texto, búsqueda y referencias, entre otras.
 
 
-¿Qué son las funciones en Excel?
+## ¿Qué son las funciones en Excel?
 
 Son fórmulas predefinidas que realizan cálculos específicos o ejecutan operaciones sobre los datos en una hoja de cálculo.
 
@@ -200,13 +210,13 @@ Función estática: La que no recibe parámetros.
 Para ver la lista de todas las funciones de Excel existentes: http://exceltotal.com/funciones/
 
 
-Diferencia entre fórmula y función
+### Diferencia entre fórmula y función
 
 FÓRMULA: 
 
 -Expresión matemática o lógica que comienza con el signo igual (=) y puede incluir operadores matemáticos, referencias a otras celdas, valores constantes y funciones.
 
--Se crean escribiendolas manualmente.
+-Se crean escribiéndolas manualmente.
 
 -Pueden realizar cálculos simples o complejos.
 
@@ -225,10 +235,10 @@ FUNCIÓN:
 
 
 
-Los operadores de Excel
+# Los operadores de Excel
 
 
-Concatenar con el operador ampersand (&)
+## Concatenar con el operador ampersand (&)
 
 -Concatenar referencia a celdas
 
@@ -237,27 +247,64 @@ Concatenar con el operador ampersand (&)
 -Concatenar fórmulas y texto
 
 
-Listas personalizadas
+# Listas personalizadas
+
 Cuando tenemos por ejemplo una fila con varias celdas, y en la primera pone "lunes", y yo arrastro hacia la derecha, me lo rellena con los demás días de la semana. 
 O si pone en la primera celda "Enero" y lo arrastro hacia la derecha me lo rellena con los demás meses del año.
 Esto es por las listas personalizadas que Excel tiene precargadas.
 
-¿Cómo crear tu propia lista personalizada?
+
+## ¿Cómo crear tu propia lista personalizada?
 
 seccion archivo, opciones, solapa "avanzadas", general, modificar listas pesonalizadas.
 En mac esta opción está en "preferencias de Excel".
 
 
-Administración de celdas y rangos
+# Administración de celdas y rangos
 
 Podemos seleccionar un rango de celdas y asignarles un nombre, y luego usar éste pata referenciar dichas celdas.
 
 
 
-Funciones lógicas
+# Funciones lógicas
 
 -SI
 
 -Y y O
 
 -SI anidada
+
+
+# Funciones de texto
+
+
+
+_____________________________________________________________________________
+
+
+Función Fecha.mes
+
+Funcion sifecha (se usa por ejemplo para saber la edad de una persona)
+
+Función DIA.LAB
+
+
+
+______________________________________________________________________________
+
+
+Transformación de datos
+
+Power Query
+
+
+
+## Consejos para trabajar en Excel
+
+-Copiar los datos en una hoja nueva.
+
+-Eliminar los formatos innecesarios de los datos (genera más peso, y tarda más en procesarlo).
+
+-Convertir formulas a valores con pegado especial.
+
+-Usar la versión más actual posible.
